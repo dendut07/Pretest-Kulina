@@ -1,0 +1,14 @@
+CREATE TABLE `user_review` (
+    `id` INT(255) NOT NULL AUTO_INCREMENT,
+    `order_id` VARCHAR(255) NOT NULL,
+    `product_id` VARCHAR(255) NOT NULL,
+    `user_id` VARCHAR(255) NOT NULL,
+    `rating` FLOAT(1),
+    `review` VARCHAR(255),
+    `created_at` TIMESTAMP,
+    `updated_at` TIMESTAMP,
+    PRIMARY KEY (`id`)
+    )
+
+ps : saya belum mengerti mengenai REST Endpoint untuk melakukan operasi CRUD.
+     Sejauh ini yang baru saya pelajari adalah sql (basic) dan untuk bagian Basic Coding, yang baru bisa saya buat adalah sccript table
